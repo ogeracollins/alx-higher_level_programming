@@ -1,3 +1,2 @@
 -- Select the best records
-use $mysql;
-SELECT score, name ORDER BY score ASC WHERE score >= 10;
+SELECT score, name FROM second_table WHERE score >= 10 ORDER BY score ASC;
