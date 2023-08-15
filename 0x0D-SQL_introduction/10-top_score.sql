@@ -1,2 +1,2 @@
 -- List records by best
-SELECT * FROM second_table ORDER BY score ASC;
+SELECT score, name FROM second_table ORDER BY score DESC;
