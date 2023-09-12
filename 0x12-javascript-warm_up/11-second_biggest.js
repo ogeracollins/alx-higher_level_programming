@@ -6,12 +6,12 @@ const argsLength = args.length - 2;
 if (argsLength === 0 || argsLength === 1) {
   console.log('0');
 } else {
-  const arguments = [];
-  for (let i = 2; i < argsLength; i++) {
-    arguments.push(parseInt(args[i], 10));
+  const inputArgs = [];
+  for (let i = 2; i <= argsLength; i++) {
+    inputArgs.push(parseInt(args[i], 10));
   }
-  arguments.sort(function (a, b) {
+  inputArgs.sort(function (a, b) {
     return b - a;
   });
-  console.log(arguments[1]);
+  console.log(inputArgs[1]);
 }
