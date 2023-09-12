@@ -7,7 +7,7 @@ if (argsLength === 0 || argsLength === 1) {
   console.log('0');
 } else {
   const inputArgs = [];
-  for (let i = 2; i <= argsLength; i++) {
+  for (let i = 2; i < argsLength; i++) {
     inputArgs.push(parseInt(args[i], 10));
   }
   inputArgs.sort(function (a, b) {
