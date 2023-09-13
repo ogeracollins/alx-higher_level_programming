@@ -3,3 +3,5 @@ class Rectangle {
   constructor () {
   }
 }
+
+export default Rectangle;
