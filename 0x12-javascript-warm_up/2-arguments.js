@@ -1,4 +1,5 @@
 #!/usr/bin/node
+//Print number of arguments passed
 
 let arguments = process.argv.length - 2;
 if (arguments == 0){
