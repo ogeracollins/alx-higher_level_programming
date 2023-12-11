@@ -3,7 +3,7 @@
 let arguments = process.argv.length - 2;
 
 if (arguments == 0){
-    console.log("No argument passed");
+    console.log("No argument");
 }else {
-    console.log(`${arguments} Arguments passed`);
+    console.log(process.argv[2]);
 }
