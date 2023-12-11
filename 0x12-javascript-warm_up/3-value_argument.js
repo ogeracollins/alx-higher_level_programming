@@ -1,9 +1,8 @@
 #!/usr/bin/node
 // Pring first argument
 
-let arguments = process.argv.length - 2;
-if (arguments == 0){
-    console.log("No argument");
+if (process.argv.length == 2){
+  console.log("No argument");
 }else {
-    console.log(process.argv[2]);
+  console.log(process.argv[2]);
 }
